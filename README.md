@@ -2,7 +2,7 @@
 ## 💎 By EuropeMan (NoName guy)
 
 ## 🔧 Compiling
-### Step 1 - Download latest release
+### Step 1 - Download [latest release](https://github.com/EuropeMan/ImGuiDllBase/releases/tag/Release)
 ### Step 2 - Open ImGuiDllBase.sln by Visual Studio 20..
 ### Step 3 - Press Ctrl+Shift+B to compile
 
