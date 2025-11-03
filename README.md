@@ -1,5 +1,4 @@
-# ❤ ImGui - DLL base
-## 💎 By EuropeMan (NoName guy)
+# ❤ ImGui - DLL base DirectX 11
 
 ## 🔧 Compiling
 ### Step 1 - Download [latest release](https://github.com/EuropeMan/ImGuiDllBase/releases/tag/Release)
