@@ -52,7 +52,7 @@ void InitImGuiOnce(IDXGISwapChain* swapChain) {
 
     CreateRenderTarget(swapChain);
 
-    // Инициализация ImGui
+    // Г€Г­ГЁГ¶ГЁГ Г«ГЁГ§Г Г¶ГЁГї ImGui
     IMGUI_CHECKVERSION();
     ImGui::CreateContext();
     ImGuiIO& io = ImGui::GetIO(); (void)io;
@@ -65,8 +65,8 @@ void InitImGuiOnce(IDXGISwapChain* swapChain) {
     ImGui_ImplWin32_Init(g_hWnd);
     ImGui_ImplDX11_Init(g_pd3dDevice, g_pd3dDeviceContext);
 
-    io.MouseDrawCursor = false;
-    ShowCursor(FALSE);
+    //io.MouseDrawCursor = false; - Disables cursor
+    //ShowCursor(FALSE); - Disables cursor 2
 
     oWndProc = (WNDPROC)SetWindowLongPtr(g_hWnd, GWLP_WNDPROC, (LONG_PTR)WndProcHook);
 
@@ -195,3 +195,4 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReser
     }
     return TRUE;
 }
+
